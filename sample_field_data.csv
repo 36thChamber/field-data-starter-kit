@@ -1,0 +1,7 @@
+record_id,date,site_name,latitude,longitude,parameter,value,unit,notes
+SYN-001,2026-06-01,Synthetic Site Alpha,-23.551234,-46.633456,water_temperature,21.4,degC,Synthetic demonstration only.
+SYN-002,2026-06-01,Synthetic Site Alpha,-23.551234,-46.633456,pH,7.2,pH,Synthetic demonstration only.
+SYN-003,2026-06-02,Synthetic Site Beta,-23.56,-46.64,turbidity,8.6,NTU,Synthetic demonstration only.
+SYN-004,2026-06-02,Synthetic Site Beta,-23.56,-46.64,conductivity,245,uS/cm,Synthetic demonstration only.
+SYN-005,2026-06-03,Synthetic Site Gamma,0,0,custom_parameter,0,custom_unit,"Synthetic zero-value example, not a real site."
+SYN-006,2026-06-03,Synthetic Site Gamma,-23.57,-46.65,dissolved_oxygen,6.8,mg/L,Synthetic demonstration only.

@@ -1,0 +1,10 @@
+record_id,date,site_name,latitude,longitude,parameter,value,unit,notes
+ERR-001,2026-06-01,Synthetic Error Site,91,-46.63,pH,7.2,pH,Deliberate error: latitude above 90.
+ERR-002,2026-06-01,Synthetic Error Site,-23.55,-181,pH,7.2,pH,Deliberate error: longitude below -180.
+DUP-003,2026-06-01,Synthetic Error Site,-23.55,-46.63,water_temperature,21.4,degC,"Deliberate duplicate ID, first occurrence."
+DUP-003,2026-06-02,Synthetic Error Site,-23.55,-46.63,water_temperature,22.1,degC,"Deliberate duplicate ID, second occurrence."
+ERR-005,2026-06-03,,-23.55,-46.63,pH,7.2,pH,Deliberate error: missing site_name.
+ERR-006,2026-06-03,Synthetic Error Site,north,-46.63,pH,7.2,pH,Deliberate error: nonnumeric latitude.
+ERR-007,2026-06-03,Synthetic Error Site,-23.55,-46.63,pH,unknown,pH,Deliberate error: nonnumeric value.
+ERR-008,2026-02-30,Synthetic Error Site,-23.55,-46.63,pH,7.2,pH,Deliberate error: impossible calendar date.
+,2026-06-03,Synthetic Error Site,-23.55,-46.63,pH,7.2,pH,Deliberate error: missing record_id.

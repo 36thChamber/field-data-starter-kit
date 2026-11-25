@@ -1,0 +1,4 @@
+record_id,date,site_name,latitude,longitude,parameter,value,unit,notes
+SYN-001,2026-10-01,Synthetic Creek,-30.01,-51.20,temperature,19.5,degC,Synthetic example only
+SYN-002,2026-10-02,Synthetic Lake,-30.02,-51.22,pH,7.1,pH,Not an actual observation
+SYN-003,2026-10-03,Synthetic Station,-30.03,-51.23,temperature,20.1,degC,"Synthetic text, with comma"

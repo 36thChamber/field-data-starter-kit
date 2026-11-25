@@ -1,0 +1,5 @@
+record_id,date,site_name,latitude,longitude,parameter,value,unit,notes
+SYN-001,2026-10-01,Synthetic Creek,-30.01,-51.20,temperature,19.5,degC,Synthetic example only
+SYN-002,2026-02-30,Synthetic Lake,91,-51.22,pH,7.1,pH,Invalid date and latitude
+syn-002,2026-10-02,Synthetic Lake,-30.02,-51.22,pH,7.2,pH,Duplicate ID ignoring case
+SYN-004,2026-10-02,,-30.03,-51.23,temperature,,degC,Missing standard fields
